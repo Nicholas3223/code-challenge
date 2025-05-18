@@ -1,0 +1,36 @@
+.modalContainer {
+  position: fixed;
+  top: 100px;
+  z-index: 1000;
+  border: 1px solid black;
+  background-color: white;
+  width: 40vw;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close-button {
+  background: transparent;
+  border: none;
+}
+
+.close-button:hover {
+  cursor: pointer;
+}
+
+.payment-form-card-details-container {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.payment-form-input {
+  width: 100%;
+}
