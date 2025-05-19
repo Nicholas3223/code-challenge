@@ -1,10 +1,10 @@
-import { useState, useEffect } from "react";
+import {useState, useEffect} from "react";
 
-import type { Account } from "../../../example-mocks/energyAccountsAPIMock";
-import type { DueCharges } from "../../../example-mocks/dueChargesAPIMock";
+import type {Account} from "../../../example-mocks/energyAccountsAPIMock";
+import type {DueCharges} from "../../../example-mocks/dueChargesAPIMock";
 
-import { MOCK_ENERGY_ACCOUNTS_API } from "../../../example-mocks/energyAccountsAPIMock";
-import { MOCK_DUE_CHARGES_API } from "../../../example-mocks/dueChargesAPIMock";
+import {MOCK_ENERGY_ACCOUNTS_API} from "../../../example-mocks/energyAccountsAPIMock";
+import {MOCK_DUE_CHARGES_API} from "../../../example-mocks/dueChargesAPIMock";
 
 export const useEnergyAccounts = (showModal: boolean, reload: boolean) => {
   const [accounts, setAccounts] = useState<Account[]>([]);

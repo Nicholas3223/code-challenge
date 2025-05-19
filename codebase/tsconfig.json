@@ -4,6 +4,6 @@
     { "path": "./tsconfig.app.json" }
   ],
   "compilerOptions": {
-    "types": ["vitest/globals", "@testing-library/jest-dom"]
+    "types": ["vitest/globals", "@testing-library/jest-dom", "vitest"]
   }
 }
