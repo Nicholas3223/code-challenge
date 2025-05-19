@@ -9,6 +9,11 @@ This is a React + TypeScript frontend application that displays customer energy 
 
 ## Starting the application
 
+First, navigate into the frontend application directory:
+
+```cd CODEBASE```
+
+
 #### Install Dependencies:
 
 ```npm install```
