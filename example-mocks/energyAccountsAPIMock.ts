@@ -75,6 +75,6 @@ export function MOCK_ENERGY_ACCOUNTS_API(): Promise<Account[]> {
   return new Promise((resolve) => {
     setTimeout(() => {
       resolve(accounts);
-    }, 1000); // simulate a 1 second delay for the API call
+    }, 1000);
   });
 }

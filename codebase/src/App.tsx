@@ -43,7 +43,7 @@ function App() {
       <h1>Customer Energy Accounts</h1> 
       <Dropdown
         onSelect={setFilterType}
-        options= {options}
+        options={options}
       />
       {filteredAccounts.map((account) => {
         return(
@@ -55,7 +55,7 @@ function App() {
           />
         )
       })}
-      {showModal &&
+      {(showModal && selectedAccount) &&
         <Modal
           setShowModal={setShowModal}
           selectedAccount={selectedAccount}

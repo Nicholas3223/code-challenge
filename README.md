@@ -113,6 +113,6 @@ I have saved the card data to the mock database in example-mocks/creditCardDetai
 - I would have included form input validations in the credit card form. Currently I only have the Pay button disabled if all of the fields are empty. I would usually have some checks that the format of the inputs are the correct length and format.
 - Currently to close the modal and dropdown you need to click the close button and the button that opens the dropdown respectively. I would have included on click outside of the element to close them as well.
 - For the custom hook and App.tsx I have no error or loading state currently. I would have added that to the custom hook and catered for it in App.tsx.
-- I would have liked to add some real electricity and gas icons to the cards also.
+- I would have liked to add some real electricity and gas icons to the cards also instead of using an emoji for each.
 - The mocks work fine at the moment but I would have liked to spend more time making more detailed ones. I am currently using the example mocks with some add ons.
 - Tests have been written for almost everything except the Card and Modal components. It would have been nice to have coverage there as well.

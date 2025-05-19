@@ -15,12 +15,9 @@ test('renders dropdown and selects an option', () => {
   expect(screen.getByRole('button')).toHaveTextContent('Filter Accounts');
 
   fireEvent.click(screen.getByRole('button'));
-
   expect(screen.getByText('Option 1')).toBeInTheDocument();
 
   fireEvent.click(screen.getByText('Option 1'));
-
   expect(onSelect).toHaveBeenCalledWith('1');
-
   expect(screen.getByRole('button')).toHaveTextContent('Option 1');
 });

@@ -42,9 +42,6 @@ export function MOCK_PUT_UPDATE_DUE_CHARGES(accountId: string, paymentAmount: nu
     setTimeout(() => {
       let remainingAmount = paymentAmount;
 
-      // TODO figure out how this function is working!!
-
-      // Get charges for the account, sorted by oldest first
       const accountCharges = dueCharges
         .filter(charge => charge.accountId === accountId && charge.amount > 0)
         .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime());
@@ -58,6 +55,6 @@ export function MOCK_PUT_UPDATE_DUE_CHARGES(accountId: string, paymentAmount: nu
       }
 
       resolve(dueCharges);
-    }, 500); // simulate async delay
+    }, 500);
   });
 }

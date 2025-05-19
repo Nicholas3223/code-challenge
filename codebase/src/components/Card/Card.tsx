@@ -24,7 +24,7 @@ const Card : React.FC<CardProps> = ({account, setShowModal, setSelectedAccount})
 
   return(
     <div className="card-container">
-      <div>Icon</div>
+      <div>{type === "ELECTRICITY" ? "⚡" : "🔥"}</div>
       <div className="card-data">
         <div>
           <h4>{type}</h4>
